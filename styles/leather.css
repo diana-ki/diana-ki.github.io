@@ -1,0 +1,30 @@
+body {
+	background-image: url(../imgs/hobby/leather/whitesnake.jpeg);
+}
+.jumbotron {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	background-image: url(../media/hobby/leather/ostrich.jpg);
+}
+
+/* Container Border */
+.container {
+	border: 0px solid #c77c02;
+	/*border-radius: 30px;*/
+	margin-top: 10px;
+}
+
+h2::first-letter {
+	color: red;
+	font-size: 50px;
+}
+h1,h2 {
+	font-family: 'Fondamento', cursive;
+	color: blue;
+}
+
+img {
+	border: 10px solid #c77c02; 
+	border-radius: 50%;
+	margin-top: 20px;
+}

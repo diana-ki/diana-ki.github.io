@@ -1,0 +1,88 @@
+body {
+	background-image: url(../media/music/imgs/note3.jpg);
+	background-size: cover;
+	background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+.jumbotron {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: #D4CB81;
+}
+p {
+	color: #605D46;
+}
+h1,p {
+	font-family: 'Fondamento', cursive;
+}
+#quote p {
+	margin: 0;
+	/* line-height: 1.5rem; */
+}
+#quote p::first-letter {
+	color: red;
+	font-size: 30px;
+}
+img {
+	border:solid 2px;
+	border-bottom-color:#ffe;
+	border-left-color:#eed;
+	border-right-color:#eed;
+	border-top-color:#ccb;
+	max-height:100%;
+	max-width:100%;
+}
+  
+.frame {
+	background-color:#ddc;
+	border: solid 1.5em #eee;
+	border-bottom-color:#fff;
+	border-left-color:#eee;
+	border-radius:2px;
+	border-right-color:rgb(150, 41, 41);
+	border-top-color:rgb(236, 187, 82);
+	box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+	box-sizing:border-box;
+	display:inline-block;
+	margin:auto auto;
+	/* height:80vh; */
+	padding:.75em .75em;
+	position:relative;
+	text-align:center;
+}
+.frame:before {
+	border-radius:2px;
+	bottom:-2vmin;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+	content:"";
+	left:-2vmin;
+	position:absolute;
+	right:-2vmin;
+	top:-2vmin;
+}
+.frame:after {
+	border-radius:2px;
+	bottom:-2.5vmin;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+	content:"";
+	left:-2.5vmin;
+	position:absolute;
+	right:-2.5vmin;
+	top:-2.5vmin;
+}
+.portrait {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/*.thumbnail {
+	border: 10px solid #D4CB81;
+	text-align: center;
+	height: 240px;
+}
+img {
+  border: 10px solid #ddd;
+  padding: auto auto;
+  max-width: 100%;
+  max-height: 100%;
+} */
