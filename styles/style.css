@@ -1,0 +1,25 @@
+body {
+	background-color: #70b7bb;	
+}
+
+
+h2, h5 {
+	text-align: center;
+}
+h3 {
+	font-family:'Bellota', cursive;
+}
+
+.header-text {
+	text-align: center;
+}
+
+
+.container .jumbotron {
+	background-image: url('./media/whitebricks.jpeg');
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}

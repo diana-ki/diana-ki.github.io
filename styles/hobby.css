@@ -1,0 +1,55 @@
+body {
+	font-family: 'Acme', sans-serif;
+	background-color: #B69A81;
+	margin-left: 100px;
+} 
+
+h1, h2 {
+	color: #16603C;
+	text-shadow: 2px 2px #8db600;
+}
+
+
+p {
+	color: #22547F;
+}
+
+
+h2:hover {
+	background-color: #d2eb34;
+}
+
+label {
+	margin-left: 100px;
+}
+
+img {
+	width: 80%;
+	height: auto;
+	size: 50px;
+	margin-top: auto;
+	border-radius: 60%;
+
+	border: 7px solid #16603C;
+	/*border-width: 8px; /* Gray border */*/
+ }
+
+ /*img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}*/
+/*.thumbnail {
+
+	height: 400px;
+	width: 300px;
+}*/
+
+.button {
+	background-color: green;
+	color: black ;
+	border: none;
+}
+
+.button1:hover {
+	background-color: red;
+	color: #16603C;
+}
